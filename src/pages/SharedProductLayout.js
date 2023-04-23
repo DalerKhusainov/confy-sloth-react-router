@@ -1,10 +1,9 @@
 import { Outlet } from "react-router-dom";
-import StyledNavbar from "../components/StyledNavbar";
 
 const Home = () => {
   return (
     <>
-      <h2>products</h2>
+      <h2 className="heading-secondary">Products</h2>
       <Outlet />
     </>
   );
